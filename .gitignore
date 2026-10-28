@@ -1,0 +1,4 @@
+# Machine-specific agent configuration and isolated research workspaces
+.codex/
+.mcp.json
+.scratch/
