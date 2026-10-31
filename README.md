@@ -8,9 +8,10 @@ Destination: a public, installable Orlando 2026 festival companion centered on p
 
 The canonical plan is [Launch a reliable Orlando 2026 festival companion](https://github.com/robcdownie/Orlando-2026/issues/1). Its native child issues and blocking relationships define the work frontier. Research findings are linked from their tickets and retained on `research/*` branches.
 
-The predecessor is [Warped LB](https://github.com/robcdownie/warpedLB). Reuse, architecture, detailed feature scope, data maintenance, and release gates remain decisions to make with Robbie.
+The predecessor is [Warped LB](https://github.com/robcdownie/warpedLB). The [festival-day product contract](https://github.com/robcdownie/Orlando-2026/issues/5) and [release gates](https://github.com/robcdownie/Orlando-2026/issues/9) record the agreed scope and readiness bar. Reuse, architecture, data maintenance, and the phone interaction design remain decisions to make with Robbie.
 
 - README.md: project overview.
+- CONTEXT.md: agreed festival-planning vocabulary.
 - AGENTS.md: shared agent procedures.
 - AI-MEMORY.md: local memory integration and verification status.
 - .mcp.json: Claude Code connections.
