@@ -1,0 +1,66 @@
+# Festival interaction comparison for Orlando
+
+Research completed 2026-10-31 for [Investigate multiple festival apps with REA before choosing the product](https://github.com/robcdownie/Orlando-2026/issues/10). Recommendations are inputs to the product decision and phone prototype, not approved feature cuts or release certification.
+
+## Conclusion
+
+Prioritize reaching a saved band before setup, a clearly named personal plan, and contextual clash explanations. Preserve Long Beach's explicit uncertainty and map capabilities. The observed friction is more specific than tab count: setup precedes value, Schedule initially exposes editing, and map explanations can cover the map. Both comparators have four main destinations; neither proves that fewer tabs by itself improves usability.
+
+## Method and evidence boundaries
+
+Three targets were inspected in Chrome through Playwright CLI at 390 × 844 CSS pixels, using isolated research browser storage and no signed-in accounts. This is a narrow desktop viewport, not a physical phone or mobile user-agent test. Screenshots are in [output/playwright](../../output/playwright); selected accessibility snapshots are beside them. Counts below count button/link activations, excluding scrolling, typing, and automation setup. They are observed routes, not a usability study or timing benchmark.
+
+- **Ultra:** [public Ultra 2026 planner](https://ultra-2026-planner.vercel.app/), observed October 31 around 13:09 UTC.
+- **OpenLineups:** [public Desert Bass October 2026 planner](https://openlineups.com/desert-bass/2026-10), reached through its public homepage, observed around 13:10–13:12 UTC. This is a festival-specific journey within a multi-event service. Neither target is established as organizer-official.
+- **Long Beach live:** [public deployment](https://robcdownie.github.io/warpedLB/), settled observation around 19:54 UTC shows the post-event wrap-up. An initial loading screenshot was replaced after settling.
+- **Long Beach replay:** unmodified source commit `71f1bc956becbd4a045f7feb69727a02521f2037`, existing local checkout served by Vite at `http://127.0.0.1:4178/warpedLB/`. Before navigation, used the repository's own browser-harness setup: `page.clock.install({time: new Date('2026-07-25T14:00:00-07:00')}); page.clock.resume()`. The clock advanced during the session, including a pause. This is a historical production-mode source replay, not proof of historical deployed bytes or current public onboarding. Dev-server offline behavior is not representative of a production PWA.
+
+The [REA evidence appendix](rea-evidence-review.md) records the two additional shipped targets' historical Evidence IDs, root hashes, newly checked per-file hashes, coverage, and source citations. The earlier broad analyses were partial; their retained records are unavailable in this session. They were not repeated. Current runtime behavior is established by the browser observations below, not inferred from those graphs. Live deployment equality with the October 29 snapshots is not assumed. The [current acquisition manifest](runtime-targets.json) records a later same-day fetch of HTML text hashes and script URLs. It does not hash current script bodies or establish equality with executed browser bytes.
+
+The in-app browser execution tool was unavailable at initial discovery. A REA `capture_browser_scenario` attempt on Ultra reached the page but returned `cleanup_incomplete`, execution failure `unreadable_output`, and unconfirmed `browser_transport`/`browser_profile` cleanup after a 1000 ms cleanup timeout. Its partial observation reported Chromium 156.0.8078.76. It is not counted as a successful runtime Evidence record. Subsequent observations used the working Playwright CLI. A later process check found no Chrome process whose command line matched rea or playwright; the failed tool never supplied an exact owned PID, so no unrelated process was terminated. No credentials, messages, payments, or external sharing were submitted.
+
+## Reproducible journeys
+
+### U1–U3: Ultra
+
+1. Open the public root with empty browser storage. It immediately shows Friday's timed artist list, day buttons, Lineup / Schedule / Friends / Map, stage filters, and search. No setup modal appeared. [First view](../../output/playwright/ultra-first.png).
+2. Activate **Add Frank Walker to favorites**: its control changes to Remove and the selected count appears. **One activation to first saved state**, no profile input. Add Prada2000, also starting at 4 PM. The lineup snapshot does not show overlap text on these selected rows.
+3. Activate **Schedule**. Both cards now name the other overlapping artist. **Three activations from initial view to two selected sets and visible clash explanations**. [Clashes](../../output/playwright/ultra-clashes.png). This is clearer than a generic warning alone, but postpones warning discovery until Schedule.
+4. Activate **Map**. It shows a site-map image with zoom controls. Stage text on the inspected schedule cards was not an interactive map link. At the initial zoom, map text is small and the image occupies a fraction of the portrait viewport. [Map](../../output/playwright/ultra-map.png). Reaching the map is one tab activation; locating a specific stage requires visual search/zoom and was not measured. No claim of stage-aware navigation or feature absence elsewhere.
+
+### O1–O4: OpenLineups
+
+1. Open the homepage, then **Desert Bass October 2026**. The event defaults to Timetable, with Artists / My plan / Festival info beside it. Day and stage controls coexist with the grid. [Homepage](../../output/playwright/openlineups-first.png), [timetable](../../output/playwright/openlineups-timetable.png).
+2. Open **Move Your Bass, with Shi Amir** and activate **Must go**. The detail page explains that marks save in this browser. Before marking, the researcher disabled the footer's Anonymous counts switch; this extra research action is excluded from journey counts. A backup dialog appears *after* the save, with **Not now** and Close. **Three activations from homepage to first save, two from event page**, plus one to dismiss the prompt. [Saved-state prompt](../../output/playwright/openlineups-saved.png). No sign-in was required.
+3. Choose **Not now → Timetable → My plan**. The saved set is visible with a browser-storage explanation; reload preserves it. [Plan](../../output/playwright/openlineups-plan.png). Open the timetable again, then **Lily b2b Dosh**, mark its Thursday 21:30–23:00 performance Must go, return to timetable, and navigate to the already observed My plan URL. Both overlapping Thursday sets show Clash. [Clashes](../../output/playwright/openlineups-clashes.png). The last navigation was a direct URL, so it is not evidence of an additional UI tap count. The inspected detail after saving did not expose the same clash labels seen in My plan.
+4. Inspect **Festival info** at its visible link URL. It lists stages with links back to filtered timetables and a venue Directions link to Google Maps. No spatial stage map appeared on this page or inspected set details. This is bounded coverage, not proof that no event on OpenLineups supports maps. External Directions was not opened.
+
+Positive patterns: explicit My plan wording, local-save explanation, optional backup, and plan grouping. Costs: initial event branding/search occupies much of the portrait screen; ended sets in this current event are dimmed and their names truncate in the plan screenshot; the backup dialog interrupts the first success. Do not transfer the exact visual density or dialog timing without testing.
+
+### L1–L4: Long Beach
+
+The live deployment displays its wrap-up and says the planning screens have ended. [Live screen](../../output/playwright/lb-live.png), [live text](../../output/playwright/lb-live.txt). The following steps are the pinned-source clock replay only.
+
+1. **Get Started → enter display name Research → Continue → Skip for now → Pick My Bands → Add 3OH!3 to my bands**. Four onboarding screens precede the band list; five button activations plus one required text entry reach the first selected band. Initials auto-fill, colour defaults, offline preparation can be skipped. This is a local profile, not an account. [Welcome](../../output/playwright/lb-welcome-replay.png), [selected band](../../output/playwright/lb-bands-replay.png).
+2. The Bands screen already provides a one-tap star, selected count, search, an alphabet index, and a contextual explanation of priority levels. The cost is reaching that screen and understanding the controls, not an absence of a quick selection mechanism. Several filter chips extend horizontally beyond the portrait viewport.
+3. Activate **Schedule**. In this fresh replay it opens the time-entry board, with My Day / Enter Times / Conflicts, Board / A–Z, day, stage, import/export, and pick filters. [Schedule](../../output/playwright/lb-schedule-replay.png). Activate **Conflicts**: it correctly explains that 3OH!3 cannot be checked until stage and time exist. [Missing-data state](../../output/playwright/lb-conflicts-replay.png), [text](../../output/playwright/lb-conflicts.txt). No fake times were added; actual overlap handling remains source-supported rather than runtime-tested here.
+4. Activate **Map**. Stage pins, amenity controls, zoom, day/time controls, and check-in are exposed. It clearly labels reference-map uncertainty and planned rather than live positions. The initial explanatory overlay covers substantial map area. [Map](../../output/playwright/lb-map-replay.png). With no stage assigned to the saved band, a meaningful saved-set-to-stage journey could not be tested. Do not turn that data limitation into a feature-absence claim.
+
+## Ranked recommendations for discussion
+
+| Rank | Candidate change and evidence | Why it may improve the journey | Tradeoff and prototype check |
+|---|---|---|---|
+| 1 | Expose lineup and a first local save before profile/setup (U1, O2 vs L1) | Removes four setup screens from the first-value path | Preserve identity for later sharing; test safe migration of anonymous picks. Candidate target: first save within two activations from Orlando landing, excluding search/scroll, without mandatory text input. |
+| 2 | Make **My plan** a clearly named entry and default its view to saved sets, keeping time editing discoverable (O3, L3) | Avoids interpreting Schedule as both personal consumption and data administration | Do not delete import/edit tools or assume a final tab count. Compare task comprehension and recovery, not just clicks. Candidate: reach saved plan in one activation from lineup. |
+| 3 | Show named clashes in the plan and feedback at selection (U3, O3); retain LB's missing-data explanation (L3) | Names the competing choices without forcing users into a separate diagnostics area | Do not label missing times conflict-free; preserve travel/estimated-end distinctions from LB. Test identifying both conflicting sets and reversing a choice without losing either pick. |
+| 4 | Offer a set-to-stage shortcut and preserve return context (U4/O4 limitations, L4 capabilities) | Avoids remembering a stage name, switching tabs, then searching a dense image | This is a hypothesis, not a pattern proven by these two comparators. Requires trustworthy stage coordinates; test one-action stage focus, back navigation, and an honest unknown-location state. |
+| 5 | Introduce offline preparation after first value with a persistent readiness entry (L1, O2/O4) | Reduces setup interruption without hiding festival preparation | Deferral risks arriving unprepared. Avoid confusing saved picks, installed app, cached map, and verified cold start. Test recovery after skipped preparation. |
+| 6 | Reduce competing controls and obstruction in each task context (L2–L4, O3) | Leaves useful content visible on a phone while retaining advanced functions | Progressive disclosure can hide valuable capabilities. Compare all required tasks with Robbie; no feature deletion is authorized by this research. |
+
+## Offline, accuracy, and unresolved validation
+
+No airplane-mode, offline reload, installation, background eviction, upgrade, or physical-device test was performed. OpenLineups' offline messaging and Ultra's displayed times are not proof of reliability or organizer accuracy. Only OpenLineups' online reload preservation was exercised. LB replay uses development serving and cannot certify production caching.
+
+The product and data decisions must preserve source/revision/freshness indicators, unknown times and stages, and personal picks across timetable corrections. Two existing comparators with published times cannot establish how Orlando should behave before times are published. The launch gates remain subject to actual physical-device evidence; this research does not validate or change their dates.
+
+This investigation now answers the comparative UI question with two additional distinct shipped targets, reusable REA provenance, actual browser journeys, a labeled baseline replay, and bounded gaps. It supports moving to **Choose the festival-day product contract and improvement bar**, then the existing data, architecture, and phone-prototype decisions. Remaining prototype and release questions are already covered by those tickets; no new build scope is silently created.

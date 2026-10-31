@@ -1,0 +1,46 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - heading "ULTRA 2026" [level=1] [ref=e6]
+          - paragraph [ref=e7]: Schedule Planner
+        - generic [ref=e8]:
+          - generic [ref=e542]: ★ 2
+          - button "Help and instructions" [ref=e9] [cursor=pointer]: "?"
+      - generic [ref=e10]:
+        - button "FRI 3/27★2" [ref=e546] [cursor=pointer]:
+          - text: FRI 3/27
+          - generic [ref=e544]: ★2
+        - button "SAT 3/28" [ref=e12] [cursor=pointer]
+        - button "SUN 3/29" [ref=e13] [cursor=pointer]
+      - generic [ref=e15]:
+        - button "Lineup" [ref=e16] [cursor=pointer]
+        - button "Schedule" [active] [ref=e17] [cursor=pointer]
+        - button "Friends" [ref=e18] [cursor=pointer]
+        - button "Map" [ref=e19] [cursor=pointer]
+      - textbox "Search artists..." [ref=e32]
+    - generic [ref=e548]:
+      - generic [ref=e549]:
+        - generic [ref=e550]:
+          - generic [ref=e551]: 4:00 PM
+          - generic [ref=e552]: 4:50 PM
+        - generic [ref=e553]:
+          - generic [ref=e554]: Frank Walker
+          - generic [ref=e556]: Main Stage
+          - generic [ref=e557]:
+            - generic [ref=e558]: ⚠
+            - generic [ref=e559]: Overlaps with Prada2000
+        - button "Remove Frank Walker from favorites" [ref=e560] [cursor=pointer]
+      - generic [ref=e563]:
+        - generic [ref=e564]:
+          - generic [ref=e565]: 4:00 PM
+          - generic [ref=e566]: 5:00 PM
+        - generic [ref=e567]:
+          - generic [ref=e568]: Prada2000
+          - generic [ref=e570]: Worldwide Stage
+          - generic [ref=e571]:
+            - generic [ref=e572]: ⚠
+            - generic [ref=e573]: Overlaps with Frank Walker
+        - button "Remove Prada2000 from favorites" [ref=e574] [cursor=pointer]
+  - alert [ref=e541]

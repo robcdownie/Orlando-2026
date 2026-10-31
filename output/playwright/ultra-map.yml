@@ -1,0 +1,29 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - heading "ULTRA 2026" [level=1] [ref=e6]
+          - paragraph [ref=e7]: Schedule Planner
+        - generic [ref=e8]:
+          - generic [ref=e542]: ★ 2
+          - button "Help and instructions" [ref=e9] [cursor=pointer]: "?"
+      - generic [ref=e10]:
+        - button "FRI 3/27★2" [ref=e546] [cursor=pointer]:
+          - text: FRI 3/27
+          - generic [ref=e544]: ★2
+        - button "SAT 3/28" [ref=e12] [cursor=pointer]
+        - button "SUN 3/29" [ref=e13] [cursor=pointer]
+      - generic [ref=e15]:
+        - button "Lineup" [ref=e16] [cursor=pointer]
+        - button "Schedule" [ref=e17] [cursor=pointer]
+        - button "Friends" [ref=e18] [cursor=pointer]
+        - button "Map" [active] [ref=e19] [cursor=pointer]
+    - generic [ref=e577]:
+      - generic [ref=e578]:
+        - img "Ultra Music Festival 2026 Site Map — Bayfront Park, Miami"
+      - generic [ref=e579]:
+        - button "Zoom out" [disabled] [ref=e580]: −
+        - button "100%" [ref=e581] [cursor=pointer]
+        - button "Zoom in" [ref=e582] [cursor=pointer]: +
+  - alert [ref=e541]

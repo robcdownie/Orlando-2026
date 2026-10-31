@@ -1,0 +1,47 @@
+[
+  {
+    "limitation": "HTML text re-encoded UTF8; not wire bytes. Script URLs inventoried, not fetched or hashed in this pass. Not a runtime executed-module inventory.",
+    "retrievedUtc": "2026-10-31T19:56:46.5945111Z",
+    "htmlUtf8Sha256": "7fdf4012cea982ec4396d1e4b4f6eaafcdf6e298b56c253c833462e21d93ec62",
+    "url": "https://ultra-2026-planner.vercel.app/",
+    "scriptUrls": [
+      "https://ultra-2026-planner.vercel.app/_next/static/chunks/0dh46ibybki01.js",
+      "https://ultra-2026-planner.vercel.app/_next/static/chunks/10h58a-70w7nl.js",
+      "https://ultra-2026-planner.vercel.app/_next/static/chunks/turbopack-0~r2tpfnxd-nu.js",
+      "https://ultra-2026-planner.vercel.app/_next/static/chunks/0dliiuffleu~9.js",
+      "https://ultra-2026-planner.vercel.app/_next/static/chunks/0dbhjjzl8qfwv.js",
+      "https://ultra-2026-planner.vercel.app/_next/static/chunks/0_wj.32ndfokq.js",
+      "https://ultra-2026-planner.vercel.app/_next/static/chunks/03~yq9q893hmn.js",
+      "https://ultra-2026-planner.vercel.app/_next/static/chunks/0b5yd18v4zlw1.js"
+    ]
+  },
+  {
+    "limitation": "HTML text re-encoded UTF8; not wire bytes. Script URLs inventoried, not fetched or hashed in this pass. Not a runtime executed-module inventory.",
+    "retrievedUtc": "2026-10-31T19:56:46.9447037Z",
+    "htmlUtf8Sha256": "40e66d918c4f252758df51c0c46bff7ff44007d3c288b0ab5f0617e1528ff90e",
+    "url": "https://openlineups.com/desert-bass/2026-10",
+    "scriptUrls": [
+      "https://openlineups.com/_next/static/chunks/38ino5h-5l954.js",
+      "https://openlineups.com/_next/static/chunks/1evdy7h_vfiqk.js",
+      "https://openlineups.com/_next/static/chunks/turbopack-2c3mg3r-05n1w.js",
+      "https://openlineups.com/_next/static/chunks/0yme9wk20mmxa.js",
+      "https://openlineups.com/_next/static/chunks/2dxpulf4iig-i.js",
+      "https://openlineups.com/_next/static/chunks/168g9x_vtqf9i.js",
+      "https://openlineups.com/_next/static/chunks/2j3gujo4rzc5_.js",
+      "https://openlineups.com/_next/static/chunks/3go-tz8hkp2p6.js",
+      "https://openlineups.com/_next/static/chunks/1hahjyn5b0_9_.js",
+      "https://openlineups.com/_next/static/chunks/0d9bg-qppe531.js",
+      "https://openlineups.com/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "https://openlineups.com/_next/static/chunks/2xwey81z0jm05.js"
+    ]
+  },
+  {
+    "limitation": "HTML text re-encoded UTF8; not wire bytes. Script URLs inventoried, not fetched or hashed in this pass. Not a runtime executed-module inventory.",
+    "retrievedUtc": "2026-10-31T19:56:47.0634731Z",
+    "htmlUtf8Sha256": "4c925645680499c615a16c2f3e41b8517b304b72902d1ab0af9530fe7865feb8",
+    "url": "https://robcdownie.github.io/warpedLB/",
+    "scriptUrls": [
+      "https://robcdownie.github.io/warpedLB/assets/index-CNY8-KRf.js"
+    ]
+  }
+]

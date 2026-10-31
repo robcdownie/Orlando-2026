@@ -1,0 +1,32 @@
+### Page
+- Page URL: https://robcdownie.github.io/warpedLB/
+- Page Title: Warped LB Companion — Unofficial
+### Snapshot
+```yaml
+- main [ref=e12]:
+  - generic [ref=e13]:
+    - generic [ref=e17]:
+      - generic [ref=e18]: THAT'S A WRAP
+      - generic [ref=e19]:
+        - generic [ref=e20]: LONG BEACH
+        - generic [ref=e21]: "2026"
+    - generic [ref=e22]:
+      - heading "Thank you for using this" [level=2] [ref=e23]
+      - paragraph [ref=e24]: Warped Long Beach is done, and so is the planning half of this app — the schedule, map, group and conflict screens have gone with it. What's left is your weekend and a way to say thanks.
+      - paragraph [ref=e25]: It was built by one person, for free, with no ads and no accounts, and it never sent your plans anywhere. Thanks for trusting it with your weekend.
+    - generic [ref=e26]:
+      - heading "No picks to look back on" [level=2] [ref=e27]
+      - paragraph [ref=e28]: Nothing was ever starred on this phone, so there is no weekend to replay. Hope it was a good one anyway.
+    - generic [ref=e29]:
+      - heading "Help me recover from my corndogs" [level=2] [ref=e30]
+      - paragraph [ref=e31]: This app was free, had no ads, and never sent your plans anywhere. If it earned its keep this weekend, you can chip in toward the damage a festival weekend does to a person.
+      - link "Venmo @robbie-downie" [ref=e32] [cursor=pointer]:
+        - /url: https://venmo.com/u/robbie-downie
+      - paragraph [ref=e33]: Opens Venmo — needs a connection, unlike the rest of the app.
+    - generic [ref=e34]:
+      - heading "Going to Warped Montréal?" [level=2] [ref=e35]
+      - paragraph [ref=e36]: Aug 21–22 at Parc Jean-Drapeau — a lot of this lineup plays there too. There's a version of this app for that stop, same offline everything.
+      - link "Open the Montréal app" [ref=e37] [cursor=pointer]:
+        - /url: https://robcdownie.github.io/warpedmtl/
+    - paragraph [ref=e38]: Thanks for using it. Have a great rest of your year.
+```

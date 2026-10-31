@@ -1,0 +1,91 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - banner [ref=f3e3]:
+      - generic [ref=f3e4]:
+        - link "OpenLineups home" [ref=f3e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f3e14]: openlineups
+        - search [ref=f3e15]:
+          - generic [ref=f3e19]: Search festivals, artists or genres
+          - combobox "Search festivals, artists or genres" [ref=f3e20]
+          - status [ref=f3e21]
+        - navigation "Main" [ref=f3e22]:
+          - button "Back up" [ref=f3e23] [cursor=pointer]
+    - region "Desert Bass October 2026" [ref=f3e28]:
+      - generic [ref=f3e29]:
+        - generic [ref=f3e30]:
+          - generic [ref=f3e32]:
+            - generic [ref=f3e33]: Happening now · day 3 of 3
+            - heading "Desert Bass October 2026" [level=1] [ref=f3e35]
+            - generic [ref=f3e36]: Thu 29 – Sat 31 October 2026 · Shittim
+            - navigation "Tags" [ref=f3e37]:
+              - link "Bass music" [ref=f3e38] [cursor=pointer]:
+                - /url: /?tag=bass
+              - link "Electronic" [ref=f3e39] [cursor=pointer]:
+                - /url: /?tag=electronic
+              - link "Camping" [ref=f3e40] [cursor=pointer]:
+                - /url: /?tag=camping
+              - link "Desert" [ref=f3e41] [cursor=pointer]:
+                - /url: /?tag=desert
+              - link "Art & culture" [ref=f3e42] [cursor=pointer]:
+                - /url: /?tag=art
+          - generic [ref=f3e43]:
+            - button "I'm going" [pressed] [ref=f3e44] [cursor=pointer]: You're going
+            - button "Share" [ref=f3e47] [cursor=pointer]
+        - navigation "Festival" [ref=f3e52]:
+          - link "Timetable" [ref=f3e53] [cursor=pointer]:
+            - /url: /desert-bass/2026-10
+          - link "Artists" [ref=f3e54] [cursor=pointer]:
+            - /url: /desert-bass/2026-10/artists
+          - link "My plan" [ref=f3e55] [cursor=pointer]:
+            - /url: /desert-bass/2026-10/my-plan
+          - link "Festival info" [ref=f3e56] [cursor=pointer]:
+            - /url: /desert-bass/2026-10/festival
+    - main [ref=f3e57]:
+      - generic [ref=f3e58]:
+        - group "View" [ref=f3e59]:
+          - button "List" [pressed] [ref=f3e60] [cursor=pointer]
+          - button "Timetable" [ref=f3e63] [cursor=pointer]
+        - generic [ref=f3e67]: 2 Must go
+        - generic [ref=f3e71]:
+          - text: Saved on this browser.
+          - button "Sign in" [ref=f3e72] [cursor=pointer]
+          - text: to back it up and get it in the app.
+      - region [ref=f3e74]:
+        - heading "Thursday" [level=2] [ref=f3e75]
+        - region "21:30 to 23:30" [ref=f3e76]:
+          - generic [ref=f3e77]:
+            - generic [ref=f3e78]: 21:30 → 23:30
+            - generic [ref=f3e79]: · 2 h
+          - link "21:30 Lily b2b Dosh Clash Fusion Stage , Must go, ended" [ref=f3e80] [cursor=pointer]:
+            - /url: /desert-bass/2026-10/sets/449?from=plan
+            - generic [ref=f3e81]: 21:30
+            - generic [ref=f3e84]: Lily b2b Dosh
+            - generic [ref=f3e85]: Clash
+            - generic [ref=f3e88]: Fusion Stage
+            - generic [ref=f3e91]: ", Must go, ended"
+          - link "22:00 Move Your Bass Clash The Nest , Must go, ended" [ref=f3e92] [cursor=pointer]:
+            - /url: /desert-bass/2026-10/sets/393?from=plan
+            - generic [ref=f3e93]: 22:00
+            - generic [ref=f3e96]: Move Your Bass
+            - generic [ref=f3e97]: Clash
+            - generic [ref=f3e100]: The Nest
+            - generic [ref=f3e103]: ", Must go, ended"
+    - contentinfo [ref=f3e104]:
+      - generic [ref=f3e105]:
+        - generic [ref=f3e106]: Lineup powered by OpenLineups, free for every festival.
+        - navigation "Footer" [ref=f3e107]:
+          - link "FAQ" [ref=f3e108] [cursor=pointer]:
+            - /url: /faq
+          - link "Privacy" [ref=f3e109] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=f3e110] [cursor=pointer]:
+            - /url: /terms
+          - link "Add your festival" [ref=f3e111] [cursor=pointer]:
+            - /url: /manage/start
+          - group "Clock" [ref=f3e112]:
+            - button "24h" [pressed] [ref=f3e113] [cursor=pointer]
+            - button "12h" [ref=f3e114] [cursor=pointer]
+          - switch "Anonymous counts" [ref=f3e115] [cursor=pointer]
+        - paragraph [ref=f3e118]: "Off: this browser’s marks and hearts stay out of festivals’ counts."
+  - alert [ref=f3e119]

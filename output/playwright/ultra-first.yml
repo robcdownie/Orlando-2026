@@ -1,0 +1,395 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - heading "ULTRA 2026" [level=1] [ref=e6]
+        - paragraph [ref=e7]: Schedule Planner
+      - button "Help and instructions" [ref=e9] [cursor=pointer]: "?"
+    - generic [ref=e10]:
+      - button "FRI 3/27" [ref=e11] [cursor=pointer]
+      - button "SAT 3/28" [ref=e12] [cursor=pointer]
+      - button "SUN 3/29" [ref=e13] [cursor=pointer]
+    - generic [ref=e15]:
+      - button "Lineup" [ref=e16] [cursor=pointer]
+      - button "Schedule" [ref=e17] [cursor=pointer]
+      - button "Friends" [ref=e18] [cursor=pointer]
+      - button "Map" [ref=e19] [cursor=pointer]
+    - generic [ref=e21]:
+      - button "All Stages" [ref=e22] [cursor=pointer]
+      - button "Main Stage7" [ref=e23] [cursor=pointer]
+      - button "Worldwide7" [ref=e24] [cursor=pointer]
+      - button "Megastructure5" [ref=e25] [cursor=pointer]
+      - button "The Cove5" [ref=e26] [cursor=pointer]
+      - button "Live Stage5" [ref=e27] [cursor=pointer]
+      - button "UMF Radio9" [ref=e28] [cursor=pointer]
+      - button "Oasis8" [ref=e29] [cursor=pointer]
+    - textbox "Search artists..." [ref=e32]
+  - generic [ref=e34]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]: 4:00 PM
+        - generic [ref=e38]: 4:50 PM
+      - generic [ref=e39]:
+        - generic [ref=e40]: Frank Walker
+        - generic [ref=e42]: Main Stage
+      - button "Add Frank Walker to favorites" [ref=e43] [cursor=pointer]
+    - generic [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e48]: 4:00 PM
+        - generic [ref=e49]: 5:00 PM
+      - generic [ref=e50]:
+        - generic [ref=e51]: Prada2000
+        - generic [ref=e53]: Worldwide Stage
+      - button "Add Prada2000 to favorites" [ref=e54] [cursor=pointer]
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]: 4:00 PM
+        - generic [ref=e60]: 5:30 PM
+      - generic [ref=e61]:
+        - generic [ref=e62]: Mar-T
+        - generic [ref=e64]: RESISTANCE Megastructure
+      - button "Add Mar-T to favorites" [ref=e65] [cursor=pointer]
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e70]: 4:00 PM
+        - generic [ref=e71]: 5:30 PM
+      - generic [ref=e72]:
+        - generic [ref=e73]: Godtripper
+        - generic [ref=e75]: RESISTANCE The Cove
+      - button "Add Godtripper to favorites" [ref=e76] [cursor=pointer]
+    - generic [ref=e79]:
+      - generic [ref=e80]:
+        - generic [ref=e81]: 4:00 PM
+        - generic [ref=e82]: 4:30 PM
+      - generic [ref=e83]:
+        - generic [ref=e84]: Linney
+        - generic [ref=e86]: UMF Radio
+      - button "Add Linney to favorites" [ref=e87] [cursor=pointer]
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e92]: 4:00 PM
+        - generic [ref=e93]: 5:00 PM
+      - generic [ref=e94]:
+        - generic [ref=e95]: Nudos
+        - generic [ref=e97]: Oasis
+      - button "Add Nudos to favorites" [ref=e98] [cursor=pointer]
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e103]: 4:30 PM
+        - generic [ref=e104]: 5:15 PM
+      - generic [ref=e105]:
+        - generic [ref=e106]: Ookay
+        - generic [ref=e108]: UMF Radio
+      - button "Add Ookay to favorites" [ref=e109] [cursor=pointer]
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - generic [ref=e114]: 4:50 PM
+        - generic [ref=e115]: 5:55 PM
+      - generic [ref=e116]:
+        - generic [ref=e117]: Voyd
+        - generic [ref=e119]: Main Stage
+      - button "Add Voyd to favorites" [ref=e120] [cursor=pointer]
+    - generic [ref=e123]:
+      - generic [ref=e124]:
+        - generic [ref=e125]: 5:00 PM
+        - generic [ref=e126]: 6:00 PM
+      - generic [ref=e127]:
+        - generic [ref=e128]: Matty Ralph
+        - generic [ref=e130]: Worldwide Stage
+      - button "Add Matty Ralph to favorites" [ref=e131] [cursor=pointer]
+    - generic [ref=e134]:
+      - generic [ref=e135]:
+        - generic [ref=e136]: 5:00 PM
+        - generic [ref=e137]: 6:15 PM
+      - generic [ref=e138]:
+        - generic [ref=e139]: Afrobeta
+        - generic [ref=e141]: Live Stage
+      - button "Add Afrobeta to favorites" [ref=e142] [cursor=pointer]
+    - generic [ref=e145]:
+      - generic [ref=e146]:
+        - generic [ref=e147]: 5:00 PM
+        - generic [ref=e148]: 6:30 PM
+      - generic [ref=e149]:
+        - generic [ref=e150]: Richard Fraioli B3B Jimmy Page B3B DJ Ideal
+        - generic [ref=e152]: Oasis
+      - button "Add Richard Fraioli B3B Jimmy Page B3B DJ Ideal to favorites" [ref=e153] [cursor=pointer]
+    - generic [ref=e156]:
+      - generic [ref=e157]:
+        - generic [ref=e158]: 5:15 PM
+        - generic [ref=e159]: 6:15 PM
+      - generic [ref=e160]:
+        - generic [ref=e161]: Nostalgix
+        - generic [ref=e163]: UMF Radio
+      - button "Add Nostalgix to favorites" [ref=e164] [cursor=pointer]
+    - generic [ref=e167]:
+      - generic [ref=e168]:
+        - generic [ref=e169]: 5:30 PM
+        - generic [ref=e170]: 7:00 PM
+      - generic [ref=e171]:
+        - generic [ref=e172]: Massano
+        - generic [ref=e174]: RESISTANCE Megastructure
+      - button "Add Massano to favorites" [ref=e175] [cursor=pointer]
+    - generic [ref=e178]:
+      - generic [ref=e179]:
+        - generic [ref=e180]: 5:30 PM
+        - generic [ref=e181]: 7:00 PM
+      - generic [ref=e182]:
+        - generic [ref=e183]: Alt8
+        - generic [ref=e185]: RESISTANCE The Cove
+      - button "Add Alt8 to favorites" [ref=e186] [cursor=pointer]
+    - generic [ref=e189]:
+      - generic [ref=e190]:
+        - generic [ref=e191]: 5:55 PM
+        - generic [ref=e192]: 7:00 PM
+      - generic [ref=e193]:
+        - generic [ref=e194]: Worship
+        - generic [ref=e196]: Main Stage
+      - button "Add Worship to favorites" [ref=e197] [cursor=pointer]
+    - generic [ref=e200]:
+      - generic [ref=e201]:
+        - generic [ref=e202]: 6:00 PM
+        - generic [ref=e203]: 7:00 PM
+      - generic [ref=e204]:
+        - generic [ref=e205]: Superstrings
+        - generic [ref=e207]: Worldwide Stage
+      - button "Add Superstrings to favorites" [ref=e208] [cursor=pointer]
+    - generic [ref=e211]:
+      - generic [ref=e212]:
+        - generic [ref=e213]: 6:15 PM
+        - generic [ref=e214]: 7:45 PM
+      - generic [ref=e215]:
+        - generic [ref=e216]: Shima
+        - generic [ref=e218]: Live Stage
+      - button "Add Shima to favorites" [ref=e219] [cursor=pointer]
+    - generic [ref=e222]:
+      - generic [ref=e223]:
+        - generic [ref=e224]: 6:15 PM
+        - generic [ref=e225]: 7:15 PM
+      - generic [ref=e226]:
+        - generic [ref=e227]: Jessica Audiffred
+        - generic [ref=e229]: UMF Radio
+      - button "Add Jessica Audiffred to favorites" [ref=e230] [cursor=pointer]
+    - generic [ref=e233]:
+      - generic [ref=e234]:
+        - generic [ref=e235]: 6:30 PM
+        - generic [ref=e236]: 7:30 PM
+      - generic [ref=e237]:
+        - generic [ref=e238]: Los de la Vega
+        - generic [ref=e240]: Oasis
+      - button "Add Los de la Vega to favorites" [ref=e241] [cursor=pointer]
+    - generic [ref=e244]:
+      - generic [ref=e245]:
+        - generic [ref=e246]: 7:00 PM
+        - generic [ref=e247]: 8:05 PM
+      - generic [ref=e248]:
+        - generic [ref=e249]: Illenium
+        - generic [ref=e251]: Main Stage
+      - button "Add Illenium to favorites" [ref=e252] [cursor=pointer]
+    - generic [ref=e255]:
+      - generic [ref=e256]:
+        - generic [ref=e257]: 7:00 PM
+        - generic [ref=e258]: 8:00 PM
+      - generic [ref=e259]:
+        - generic [ref=e260]: Vini Vici
+        - generic [ref=e262]: Worldwide Stage
+      - button "Add Vini Vici to favorites" [ref=e263] [cursor=pointer]
+    - generic [ref=e266]:
+      - generic [ref=e267]:
+        - generic [ref=e268]: 7:00 PM
+        - generic [ref=e269]: 8:30 PM
+      - generic [ref=e270]:
+        - generic [ref=e271]: Miss Monique
+        - generic [ref=e273]: RESISTANCE Megastructure
+      - button "Add Miss Monique to favorites" [ref=e274] [cursor=pointer]
+    - generic [ref=e277]:
+      - generic [ref=e278]:
+        - generic [ref=e279]: 7:00 PM
+        - generic [ref=e280]: 8:30 PM
+      - generic [ref=e281]:
+        - generic [ref=e282]: "999999999"
+        - generic [ref=e284]: RESISTANCE The Cove
+      - button "Add 999999999 to favorites" [ref=e285] [cursor=pointer]
+    - generic [ref=e288]:
+      - generic [ref=e289]:
+        - generic [ref=e290]: 7:15 PM
+        - generic [ref=e291]: 8:15 PM
+      - generic [ref=e292]:
+        - generic [ref=e293]: Steve Aoki
+        - generic [ref=e295]: UMF Radio
+      - button "Add Steve Aoki to favorites" [ref=e296] [cursor=pointer]
+    - generic [ref=e299]:
+      - generic [ref=e300]:
+        - generic [ref=e301]: 7:30 PM
+        - generic [ref=e302]: 8:00 PM
+      - generic [ref=e303]:
+        - generic [ref=e304]: Hymm Marley
+        - generic [ref=e306]: Oasis
+      - button "Add Hymm Marley to favorites" [ref=e307] [cursor=pointer]
+    - generic [ref=e310]:
+      - generic [ref=e311]:
+        - generic [ref=e312]: 7:45 PM
+        - generic [ref=e313]: 9:15 PM
+      - generic [ref=e314]:
+        - generic [ref=e315]: Black Tiger Sex Machine Presents Connected Fighters
+        - generic [ref=e317]: Live Stage
+      - button "Add Black Tiger Sex Machine Presents Connected Fighters to favorites" [ref=e318] [cursor=pointer]
+    - generic [ref=e321]:
+      - generic [ref=e322]:
+        - generic [ref=e323]: 8:00 PM
+        - generic [ref=e324]: 9:00 PM
+      - generic [ref=e325]:
+        - generic [ref=e326]: Lilly Palmer
+        - generic [ref=e328]: Worldwide Stage
+      - button "Add Lilly Palmer to favorites" [ref=e329] [cursor=pointer]
+    - generic [ref=e332]:
+      - generic [ref=e333]:
+        - generic [ref=e334]: 8:00 PM
+        - generic [ref=e335]: 9:00 PM
+      - generic [ref=e336]:
+        - generic [ref=e337]: Tak Shak
+        - generic [ref=e339]: Oasis
+      - button "Add Tak Shak to favorites" [ref=e340] [cursor=pointer]
+    - generic [ref=e343]:
+      - generic [ref=e344]:
+        - generic [ref=e345]: 8:05 PM
+        - generic [ref=e346]: 9:20 PM
+      - generic [ref=e347]:
+        - generic [ref=e348]: Bzrp
+        - generic [ref=e350]: Main Stage
+      - button "Add Bzrp to favorites" [ref=e351] [cursor=pointer]
+    - generic [ref=e354]:
+      - generic [ref=e355]:
+        - generic [ref=e356]: 8:15 PM
+        - generic [ref=e357]: 9:15 PM
+      - generic [ref=e358]:
+        - generic [ref=e359]: Special Guest B2B Special Guest
+        - generic [ref=e361]: UMF Radio
+      - button "Add Special Guest B2B Special Guest to favorites" [ref=e362] [cursor=pointer]
+    - generic [ref=e365]:
+      - generic [ref=e366]:
+        - generic [ref=e367]: 8:30 PM
+        - generic [ref=e368]: 10:00 PM
+      - generic [ref=e369]:
+        - generic [ref=e370]: Vintage Culture
+        - generic [ref=e372]: RESISTANCE Megastructure
+      - button "Add Vintage Culture to favorites" [ref=e373] [cursor=pointer]
+    - generic [ref=e376]:
+      - generic [ref=e377]:
+        - generic [ref=e378]: 8:30 PM
+        - generic [ref=e379]: 10:00 PM
+      - generic [ref=e380]:
+        - generic [ref=e381]: Clara Cuvé
+        - generic [ref=e383]: RESISTANCE The Cove
+      - button "Add Clara Cuvé to favorites" [ref=e384] [cursor=pointer]
+    - generic [ref=e387]:
+      - generic [ref=e388]:
+        - generic [ref=e389]: 9:00 PM
+        - generic [ref=e390]: 10:30 PM
+      - generic [ref=e391]:
+        - generic [ref=e392]: Armin van Buuren B2B Marlon Hoffstadt
+        - generic [ref=e394]: Worldwide Stage
+      - button "Add Armin van Buuren B2B Marlon Hoffstadt to favorites" [ref=e395] [cursor=pointer]
+    - generic [ref=e398]:
+      - generic [ref=e399]:
+        - generic [ref=e400]: 9:00 PM
+        - generic [ref=e401]: 10:00 PM
+      - generic [ref=e402]:
+        - generic [ref=e403]: Rodrigo Vieira
+        - generic [ref=e405]: Oasis
+      - button "Add Rodrigo Vieira to favorites" [ref=e406] [cursor=pointer]
+    - generic [ref=e409]:
+      - generic [ref=e410]:
+        - generic [ref=e411]: 9:15 PM
+        - generic [ref=e412]: 10:45 PM
+      - generic [ref=e413]:
+        - generic [ref=e414]: Of the Trees
+        - generic [ref=e416]: Live Stage
+      - button "Add Of the Trees to favorites" [ref=e417] [cursor=pointer]
+    - generic [ref=e420]:
+      - generic [ref=e421]:
+        - generic [ref=e422]: 9:15 PM
+        - generic [ref=e423]: 10:15 PM
+      - generic [ref=e424]:
+        - generic [ref=e425]: Laidback Luke
+        - generic [ref=e427]: UMF Radio
+      - button "Add Laidback Luke to favorites" [ref=e428] [cursor=pointer]
+    - generic [ref=e431]:
+      - generic [ref=e432]:
+        - generic [ref=e433]: 9:20 PM
+        - generic [ref=e434]: 10:45 PM
+      - generic [ref=e435]:
+        - generic [ref=e436]: Alesso B2B Martin Garrix
+        - generic [ref=e438]: Main Stage
+      - button "Add Alesso B2B Martin Garrix to favorites" [ref=e439] [cursor=pointer]
+    - generic [ref=e442]:
+      - generic [ref=e443]:
+        - generic [ref=e444]: 10:00 PM
+        - generic [ref=e445]: 12:00 AM
+      - generic [ref=e446]:
+        - generic [ref=e447]: Eric Prydz
+        - generic [ref=e449]: RESISTANCE Megastructure
+      - button "Add Eric Prydz to favorites" [ref=e450] [cursor=pointer]
+    - generic [ref=e453]:
+      - generic [ref=e454]:
+        - generic [ref=e455]: 10:00 PM
+        - generic [ref=e456]: 12:00 AM
+      - generic [ref=e457]:
+        - generic [ref=e458]: Sara Landry
+        - generic [ref=e460]: RESISTANCE The Cove
+      - button "Add Sara Landry to favorites" [ref=e461] [cursor=pointer]
+    - generic [ref=e464]:
+      - generic [ref=e465]:
+        - generic [ref=e466]: 10:00 PM
+        - generic [ref=e467]: 11:00 PM
+      - generic [ref=e468]:
+        - generic [ref=e469]: DJ Hannah
+        - generic [ref=e471]: Oasis
+      - button "Add DJ Hannah to favorites" [ref=e472] [cursor=pointer]
+    - generic [ref=e475]:
+      - generic [ref=e476]:
+        - generic [ref=e477]: 10:15 PM
+        - generic [ref=e478]: 11:15 PM
+      - generic [ref=e479]:
+        - generic [ref=e480]: Riot Ten
+        - generic [ref=e482]: UMF Radio
+      - button "Add Riot Ten to favorites" [ref=e483] [cursor=pointer]
+    - generic [ref=e486]:
+      - generic [ref=e487]:
+        - generic [ref=e488]: 10:30 PM
+        - generic [ref=e489]: 12:00 AM
+      - generic [ref=e490]:
+        - generic [ref=e491]: Armin van Buuren
+        - generic [ref=e493]: Worldwide Stage
+      - button "Add Armin van Buuren to favorites" [ref=e494] [cursor=pointer]
+    - generic [ref=e497]:
+      - generic [ref=e498]:
+        - generic [ref=e499]: 10:45 PM
+        - generic [ref=e500]: 12:00 AM
+      - generic [ref=e501]:
+        - generic [ref=e502]: Major Lazer
+        - generic [ref=e504]: Main Stage
+      - button "Add Major Lazer to favorites" [ref=e505] [cursor=pointer]
+    - generic [ref=e508]:
+      - generic [ref=e509]:
+        - generic [ref=e510]: 10:45 PM
+        - generic [ref=e511]: 12:00 AM
+      - generic [ref=e512]:
+        - generic [ref=e513]: Levity Presents Lasership
+        - generic [ref=e515]: Live Stage
+      - button "Add Levity Presents Lasership to favorites" [ref=e516] [cursor=pointer]
+    - generic [ref=e519]:
+      - generic [ref=e520]:
+        - generic [ref=e521]: 11:00 PM
+        - generic [ref=e522]: 12:00 AM
+      - generic [ref=e523]:
+        - generic [ref=e524]: Luca Testa
+        - generic [ref=e526]: Oasis
+      - button "Add Luca Testa to favorites" [ref=e527] [cursor=pointer]
+    - generic [ref=e530]:
+      - generic [ref=e531]:
+        - generic [ref=e532]: 11:15 PM
+        - generic [ref=e533]: 12:00 AM
+      - generic [ref=e534]:
+        - generic [ref=e535]: Bloody Beetroots
+        - generic [ref=e537]: UMF Radio
+      - button "Add Bloody Beetroots to favorites" [ref=e538] [cursor=pointer]

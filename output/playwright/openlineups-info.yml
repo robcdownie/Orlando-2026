@@ -1,0 +1,103 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - banner [ref=f4e3]:
+      - generic [ref=f4e4]:
+        - link "OpenLineups home" [ref=f4e5] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f4e14]: openlineups
+        - search [ref=f4e15]:
+          - generic [ref=f4e19]: Search festivals, artists or genres
+          - combobox "Search festivals, artists or genres" [ref=f4e20]
+          - status [ref=f4e21]
+        - navigation "Main" [ref=f4e22]:
+          - button "Back up" [ref=f4e23] [cursor=pointer]
+    - region "Desert Bass October 2026" [ref=f4e28]:
+      - generic [ref=f4e29]:
+        - generic [ref=f4e30]:
+          - generic [ref=f4e32]:
+            - generic [ref=f4e33]: Happening now · day 3 of 3
+            - heading "Desert Bass October 2026" [level=1] [ref=f4e35]
+            - generic [ref=f4e36]: Thu 29 – Sat 31 October 2026 · Shittim
+            - navigation "Tags" [ref=f4e37]:
+              - link "Bass music" [ref=f4e38] [cursor=pointer]:
+                - /url: /?tag=bass
+              - link "Electronic" [ref=f4e39] [cursor=pointer]:
+                - /url: /?tag=electronic
+              - link "Camping" [ref=f4e40] [cursor=pointer]:
+                - /url: /?tag=camping
+              - link "Desert" [ref=f4e41] [cursor=pointer]:
+                - /url: /?tag=desert
+              - link "Art & culture" [ref=f4e42] [cursor=pointer]:
+                - /url: /?tag=art
+          - generic [ref=f4e43]:
+            - button "I'm going" [pressed] [ref=f4e44] [cursor=pointer]: You're going
+            - button "Share" [ref=f4e47] [cursor=pointer]
+        - navigation "Festival" [ref=f4e52]:
+          - link "Timetable" [ref=f4e53] [cursor=pointer]:
+            - /url: /desert-bass/2026-10
+          - link "Artists" [ref=f4e54] [cursor=pointer]:
+            - /url: /desert-bass/2026-10/artists
+          - link "My plan" [ref=f4e55] [cursor=pointer]:
+            - /url: /desert-bass/2026-10/my-plan
+          - link "Festival info" [ref=f4e56] [cursor=pointer]:
+            - /url: /desert-bass/2026-10/festival
+    - main [ref=f4e57]:
+      - generic [ref=f4e58]:
+        - region [ref=f4e59]:
+          - heading "About" [level=2] [ref=f4e60]
+          - paragraph [ref=f4e61]: 10th edition.
+        - region [ref=f4e62]:
+          - heading "Stages" [level=2] [ref=f4e63]
+          - generic [ref=f4e64]:
+            - generic [ref=f4e65]:
+              - generic [ref=f4e66]: The Nest
+              - link "Show in timetable →" [ref=f4e69] [cursor=pointer]:
+                - /url: /desert-bass/2026-10?stage=46
+            - generic [ref=f4e70]:
+              - generic [ref=f4e71]: Pirate Ship
+              - link "Show in timetable →" [ref=f4e74] [cursor=pointer]:
+                - /url: /desert-bass/2026-10?stage=47
+            - generic [ref=f4e75]:
+              - generic [ref=f4e76]: Homebass
+              - link "Show in timetable →" [ref=f4e79] [cursor=pointer]:
+                - /url: /desert-bass/2026-10?stage=48
+            - generic [ref=f4e80]:
+              - generic [ref=f4e81]: Fusion Stage
+              - link "Show in timetable →" [ref=f4e84] [cursor=pointer]:
+                - /url: /desert-bass/2026-10?stage=49
+      - complementary "Practical" [ref=f4e85]:
+        - generic [ref=f4e86]:
+          - generic [ref=f4e87]:
+            - generic [ref=f4e88]: When
+            - generic [ref=f4e89]: Thu 29 – Sat 31 October 2026
+          - generic [ref=f4e90]:
+            - generic [ref=f4e91]: Where
+            - generic [ref=f4e92]: Shittim
+            - link "Directions" [ref=f4e93] [cursor=pointer]:
+              - /url: https://www.google.com/maps/search/?api=1&query=Shittim
+        - generic [ref=f4e94]:
+          - generic [ref=f4e95]: No signal at the festival?
+          - generic [ref=f4e96]: The app keeps all of this, the timetable and your plan on your phone. No account needed.
+          - generic [ref=f4e97]:
+            - link "Android" [ref=f4e98] [cursor=pointer]:
+              - /url: /download#android
+            - link "iPhone" [ref=f4e99] [cursor=pointer]:
+              - /url: /download#iphone
+    - contentinfo [ref=f4e100]:
+      - generic [ref=f4e101]:
+        - generic [ref=f4e102]: Lineup powered by OpenLineups, free for every festival.
+        - navigation "Footer" [ref=f4e103]:
+          - link "FAQ" [ref=f4e104] [cursor=pointer]:
+            - /url: /faq
+          - link "Privacy" [ref=f4e105] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=f4e106] [cursor=pointer]:
+            - /url: /terms
+          - link "Add your festival" [ref=f4e107] [cursor=pointer]:
+            - /url: /manage/start
+          - group "Clock" [ref=f4e108]:
+            - button "24h" [pressed] [ref=f4e109] [cursor=pointer]
+            - button "12h" [ref=f4e110] [cursor=pointer]
+          - switch "Anonymous counts" [ref=f4e111] [cursor=pointer]
+        - paragraph [ref=f4e114]: "Off: this browser’s marks and hearts stay out of festivals’ counts."
+  - alert [ref=f4e115]

@@ -1,0 +1,81 @@
+- generic [ref=f1e1]:
+  - generic [ref=f1e146]:
+    - banner [ref=f1e147]:
+      - generic [ref=f1e148]:
+        - link "OpenLineups home" [ref=f1e149] [cursor=pointer]:
+          - /url: /
+          - generic [ref=f1e158]: openlineups
+        - search [ref=f1e159]:
+          - generic [ref=f1e163]: Search festivals, artists or genres
+          - combobox "Search festivals, artists or genres" [ref=f1e164]
+          - status [ref=f1e165]
+        - navigation "Main" [ref=f1e166]:
+          - button "Back up" [ref=f1e836] [cursor=pointer]
+    - complementary "Move Your Bass" [ref=f1e796]:
+      - region [ref=f1e797]:
+        - link "Timetable" [ref=f1e798] [cursor=pointer]:
+          - /url: /desert-bass/2026-10
+        - generic [ref=f1e801]:
+          - generic [ref=f1e802]:
+            - heading "Shi Amir" [level=2] [ref=f1e803]
+            - generic [ref=f1e804]: 1 set · Thursday
+          - generic [ref=f1e841]:
+            - text: Your plan is on this browser only.
+            - button "Sign in to keep it" [ref=f1e842] [cursor=pointer]
+          - heading "1 set" [level=3] [ref=f1e806]
+          - article "Move Your Bass" [ref=f1e807]:
+            - generic [ref=f1e808]:
+              - generic [ref=f1e809]: The Nest
+              - generic [ref=f1e812]: Ended
+            - generic [ref=f1e813]:
+              - heading "Move Your Bass" [level=4] [ref=f1e814]
+              - generic [ref=f1e815]: Thursday · 22:00–23:30
+              - paragraph [ref=f1e816]: With Shi Amir
+            - generic [ref=f1e817]:
+              - button "Interested" [ref=f1e818] [cursor=pointer]
+              - button "Must go" [pressed] [ref=f1e822] [cursor=pointer]
+            - generic [ref=f1e826]:
+              - button "Liked" [ref=f1e827] [cursor=pointer]
+              - button "LOVED" [ref=f1e830] [cursor=pointer]
+            - generic [ref=f1e833]:
+              - generic [ref=f1e834]: My notes · only you see them
+              - textbox "My notes · only you see them" [ref=f1e835]:
+                - /placeholder: Add a note
+    - contentinfo [ref=f1e781]:
+      - generic [ref=f1e782]:
+        - generic [ref=f1e783]: Lineup powered by OpenLineups, free for every festival.
+        - navigation "Footer" [ref=f1e784]:
+          - link "FAQ" [ref=f1e785] [cursor=pointer]:
+            - /url: /faq
+          - link "Privacy" [ref=f1e786] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms" [ref=f1e787] [cursor=pointer]:
+            - /url: /terms
+          - link "Add your festival" [ref=f1e788] [cursor=pointer]:
+            - /url: /manage/start
+          - group "Clock" [ref=f1e789]:
+            - button "24h" [pressed] [ref=f1e790] [cursor=pointer]
+            - button "12h" [ref=f1e791] [cursor=pointer]
+          - switch "Anonymous counts" [ref=f1e792] [cursor=pointer]
+        - paragraph [ref=f1e795]: "Off: this browser’s marks and hearts stay out of festivals’ counts."
+  - dialog [ref=f1e843]:
+    - generic [ref=f1e844]:
+      - button "Close" [active] [ref=f1e845] [cursor=pointer]
+      - generic [ref=f1e849]: Saved on this browser
+      - heading "Back up your plan" [level=2] [ref=f1e852]
+      - paragraph [ref=f1e853]: "Right now it's only on this browser. Sign in and it's backed up:"
+      - list [ref=f1e854]:
+        - listitem [ref=f1e855]: Safe even if this browser clears its data
+        - listitem [ref=f1e859]: The same plan in the app and on any device
+        - listitem [ref=f1e862]: "No password: one tap with Apple or Google"
+      - button "Continue with Apple" [ref=f1e867] [cursor=pointer]
+      - button "Continue with Google" [ref=f1e868] [cursor=pointer]
+      - button "Continue with email" [ref=f1e869] [cursor=pointer]
+      - button "Not now" [ref=f1e870] [cursor=pointer]
+      - paragraph [ref=f1e871]:
+        - link "Terms" [ref=f1e872] [cursor=pointer]:
+          - /url: /terms
+        - text: ·
+        - link "Privacy" [ref=f1e873] [cursor=pointer]:
+          - /url: /privacy
+  - alert [ref=f1e145]: Desert Bass October 2026 lineup and timetable · OpenLineups

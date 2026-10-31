@@ -1,0 +1,47 @@
+### Page
+- Page URL: http://127.0.0.1:4178/warpedLB/
+- Page Title: Warped LB Companion — Unofficial
+### Snapshot
+```yaml
+- generic [ref=f6e170]:
+  - banner [ref=f6e171]:
+    - generic [ref=f6e172]:
+      - button "Open menu" [ref=f6e173]
+      - img "Warped LB Companion" [ref=f6e175]:
+        - generic [ref=f6e176]:
+          - generic [ref=f6e177]: WARPED
+          - generic [ref=f6e178]: LONG BEACH
+      - generic [ref=f6e180]: Online
+  - main [ref=f6e188]:
+    - generic [ref=f6e3457]:
+      - generic [ref=f6e3458]:
+        - heading "Schedule" [level=1] [ref=f6e3459]
+        - button "Import / Export" [ref=f6e3461]
+      - generic [ref=f6e3465]:
+        - button "My Day" [ref=f6e3466]
+        - button "Enter Times" [ref=f6e3469]
+        - button "Conflicts" [active] [ref=f6e3473]
+      - generic [ref=f6e3529]:
+        - button "Saturday" [ref=f6e3530]
+        - button "Sunday" [ref=f6e3531]
+      - generic [ref=f6e3532]:
+        - generic [ref=f6e3537]: "Saturday:"
+        - generic [ref=f6e3538]: No set times entered
+      - paragraph [ref=f6e3539]:
+        - generic [ref=f6e3540]: 1 of 1
+        - text: Saturday picks still on your plan.
+      - generic [ref=f6e3543]:
+        - generic [ref=f6e3544]:
+          - generic [ref=f6e3547]: Note
+          - generic [ref=f6e3548]: "3OH!3: no stage or time yet"
+        - paragraph [ref=f6e3549]: 3OH!3 can't be checked for clashes until it has both a stage and a start time. Add them in Enter Times.
+      - paragraph [ref=f6e3550]:
+        - generic [ref=f6e3553]: No set times entered for Saturday, so no clashes can be found yet.
+  - navigation "Primary" [ref=f6e3205]:
+    - generic [ref=f6e3206]:
+      - button "Now" [ref=f6e3207]
+      - button "Bands" [ref=f6e3212]
+      - button "Schedule" [ref=f6e3216]
+      - button "Group" [ref=f6e3220]
+      - button "Map" [ref=f6e3227]
+```

@@ -1,0 +1,75 @@
+### Page
+- Page URL: http://127.0.0.1:4178/warpedLB/
+- Page Title: Warped LB Companion — Unofficial
+### Snapshot
+```yaml
+- generic [ref=f6e170]:
+  - banner [ref=f6e171]:
+    - generic [ref=f6e172]:
+      - button "Open menu" [ref=f6e173]
+      - img "Warped LB Companion" [ref=f6e175]:
+        - generic [ref=f6e176]:
+          - generic [ref=f6e177]: WARPED
+          - generic [ref=f6e178]: LONG BEACH
+      - generic [ref=f6e180]: Online
+  - main [ref=f6e188]:
+    - generic [ref=f6e3457]:
+      - generic [ref=f6e3458]:
+        - heading "Schedule" [level=1] [ref=f6e3459]
+        - button "Import / Export" [ref=f6e3461]
+      - generic [ref=f6e3465]:
+        - button "My Day" [ref=f6e3466]
+        - button "Enter Times" [ref=f6e3469]
+        - button "Conflicts" [ref=f6e3473]
+      - note [ref=f6e3476]:
+        - paragraph [ref=f6e3479]:
+          - text: Typing the whole board is a chore. If somebody already did it, you can
+          - button "paste their code instead" [ref=f6e3480]
+          - text: and skip all of this.
+        - button "Got it" [ref=f6e3481]
+      - generic [ref=f6e3482]:
+        - button "Board" [pressed] [ref=f6e3483]
+        - button "A–Z list" [ref=f6e3487]
+      - generic [ref=f6e3491]:
+        - generic [ref=f6e3492]:
+          - button "Saturday" [ref=f6e3493]
+          - button "Sunday" [ref=f6e3494]
+        - generic [ref=f6e3495]:
+          - button "Unplugged" [ref=f6e3496]
+          - button "Vans" [pressed] [ref=f6e3497]
+          - button "Off The Wall" [ref=f6e3498]
+          - button "BeatBox" [ref=f6e3499]
+          - button "Ghost" [ref=f6e3500]
+          - button "Rex" [ref=f6e3501]
+          - button "Octopus" [ref=f6e3502]
+          - button "DoorDash" [ref=f6e3503]
+          - button "Verizon" [ref=f6e3504]
+        - generic [ref=f6e3505]:
+          - generic [ref=f6e3506]:
+            - generic [ref=f6e3507]: 0/1
+            - text: of our picks placed
+          - button "Undo" [ref=f6e3508]
+        - button "Showing our 1 picks — bands outside them still come up when you search" [pressed] [ref=f6e3512]
+        - generic [ref=f6e3516]:
+          - paragraph [ref=f6e3517]:
+            - text: Vans Stage
+            - generic [ref=f6e3518]: Saturday · 0 sets
+          - generic [ref=f6e3519]:
+            - generic [ref=f6e3520]:
+              - generic [ref=f6e3521]: Time
+              - textbox "Time" [ref=f6e3522]:
+                - /placeholder: "205"
+            - generic [ref=f6e3523]:
+              - generic [ref=f6e3524]: Band
+              - textbox "Band" [ref=f6e3526]:
+                - /placeholder: Type a few letters
+          - paragraph [ref=f6e3527]: Type the time as digits — 205 is 2:05 PM
+        - paragraph [ref=f6e3528]: Nothing on this stage yet. Read down the board column and add each set above.
+  - navigation "Primary" [ref=f6e3205]:
+    - generic [ref=f6e3206]:
+      - button "Now" [ref=f6e3207]
+      - button "Bands" [ref=f6e3212]
+      - button "Schedule" [active] [ref=f6e3216]
+      - button "Group" [ref=f6e3220]
+      - button "Map" [ref=f6e3227]
+```

@@ -1,6 +1,6 @@
 # Expanded festival-app investigation: progress and gaps
 
-Status: **incomplete**. The primary question is how to improve first-run onboarding and reduce navigation layers in Orlando. Static inventory alone does not answer it.
+Historical status (2026-10-29): **incomplete**. Follow-up browser comparison completed on 2026-10-31; see [the interaction report](festival-interaction-comparison.md) and [evidence review](rea-evidence-review.md). The paragraphs below preserve the earlier investigation state. The primary question is how to improve first-run onboarding and reduce navigation layers in Orlando. Static inventory alone does not answer it.
 
 ## Targets and REA evidence
 
