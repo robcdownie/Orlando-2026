@@ -1,48 +1,55 @@
 # Phone experience review
 
-Review asset for [Review the phone experience for sets, clashes, and the venue map](https://github.com/robcdownie/Orlando-2026/issues/8). Pending Robbie's review; no design has been approved by this artifact alone.
+Review asset for [Review the phone experience for sets, clashes, and the venue map](https://github.com/robcdownie/Orlando-2026/issues/8). Pending Robbie's review. This is a throwaway prototype, not an approved design or a production app.
 
-Open `phone-review.html` directly in a browser. It is a single self-contained file; no installation or build step is needed. Refresh resets all choices. A browser that prohibits local files may require opening the file yourself in a normal local browser.
+Open `phone-review.html` directly in a local browser, or refresh the file if already open. It is self-contained, including the supplied map and Archivo Black font. Refresh resets all choices. The managed in-app browser rejected local-file navigation; it has not rendered or visually verified this artifact.
 
-## Revised map after Robbie's feedback
+## Direction after Robbie's review
 
-The file now opens directly on the map. The first draft's static screenshot and toy diagram were rejected as a regression from Long Beach. This revision uses the retained Long Beach map replay and pinned source as its interaction baseline: compact blue header, a horizontally scrolling filter row, most of the screen devoted to the map, round zoom/reset controls, time controls and fixed bottom navigation.
+Robbie rejected the first draft's unrelated visual styles and the follow-up that restored Long Beach's map without unifying the other screens. His direction is to keep Long Beach's concert identity while meaningfully improving the interface using the research.
 
-The reattached `Photo 1.jpg` was SHA-256 identical to the preserved supplied map. The original bytes remain embedded unchanged. The view starts closer to the grounds; Fit reveals the whole image, including its frame and legend.
+This revision removes the A/B/C alternatives and the separate map shell. Lineup, My plan, Map, Friends, preparation and updates now use one header, display type, blue/yellow/pink palette, light surface system, and fixed navigation. Archivo Black is embedded from the same pinned Fontsource 5.3.0 dependency as the Long Beach source; its unmodified font and OFL license are included. User acceptance is still pending.
 
-- Drag, pinch, use the mouse wheel, double click, or use + / - / Fit to explore. Focus the map for arrow-key pan, + / - zoom and Home reset.
-- Select a stage chip or marker to center its visible label on the supplied artwork. These are image-relative label coordinates, not verified physical or GPS locations.
-- My sets filters markers to saved example appearances. The sample acts and their stage assignments are fictional; their stage names match visible labels in the supplied artwork.
-- Friends optionally shows fictional planned and dated manual-check-in examples. A demo personal check-in records its chosen day/time and stays dated when the time slider changes. No data is sent or persisted.
-- Water, restrooms, first aid and other amenity filters explain missing verified positions rather than inventing markers.
-- Source details contains the organizer-post discrepancy and venue surroundings link. The map remains visibly marked as reference artwork.
+## What changes beyond an Orlando reskin
 
-The revised map still needs Robbie's review. No approval is inferred from the request to continue.
+Evidence: [festival interaction comparison](https://github.com/robcdownie/Orlando-2026/blob/research/expanded-rea/docs/research/festival-interaction-comparison.md), including the pinned Long Beach replay at `71f1bc956becbd4a045f7feb69727a02521f2037`. These observations are narrow desktop-browser replays, not a physical-phone benchmark.
 
-## Compare the lineup proposals
+| Area | Long Beach baseline / research finding | Revised prototype |
+| --- | --- | --- |
+| First save | Long Beach already has a one-tap star once reached, but four setup screens precede the list in the replay. Ultra exposes its list immediately. | Starts on searchable Lineup. One star saves an appearance; no mandatory name or setup. |
+| Personal plan | Schedule initially opens the time-entry board in the Long Beach replay. OpenLineups clearly names My plan. | My plan opens the saved agenda, with a now/next panel. Editing and imports sit behind Plan tools; attendance editors expand within each set. |
+| Clashes | Preserve Long Beach's uncertainty model; OpenLineups exposes clashes in My plan. Immediate save feedback is a design hypothesis. | Names both overlapping picks immediately. Compare sets offers split/skip/later and undo while retaining interests and priorities. Partial and unknown times remain explicit. |
+| Set to map | Keep Long Beach's interactive map. A direct set-to-stage shortcut is an Orlando hypothesis, not a proven missing Long Beach feature. | A saved set focuses its label in the supplied artwork. Back to plan restores scroll position. Friends has its own return path. |
+| Preparation | Setup can interrupt first value; saved picks, installed app, timetable and map readiness are separate concerns. | Nonmodal preparation offer after saving; persistent header entry; separate simulated app/timetable/map states and failed-download recovery. |
 
-Open Lineup, then use the bottom arrows or the left/right keyboard arrows outside an input. `?variant=A`, `?variant=B`, and `?variant=C` identify the lineup list, day timeline, and festival poster proposals. The alternatives explore lineup presentation; the revised map has one consistent interaction model.
+The improvement claim is a concrete proposed journey, not proof of faster festival use. The target remains a coherent, reviewed design before production work.
 
-Start by saving an appearance, then opening My plan. The first save takes one action from the loaded lineup, and My plan is one action away. These are prototype affordances, not measured phone-performance results.
+## Try the connected flow
 
-Open **Prototype · review tools** on the map, or **Reviewer scenarios** elsewhere, to load:
+1. Save Glass Harbor and Static Bloom in Lineup. Their named overlap appears immediately.
+2. Choose **Compare sets**, then **Split at 3:00** or skip one appearance. Both stars remain. Undo restores the earlier attendance.
+3. In My plan, tap a stage link. The map centers that label; **Back to plan** returns to the same position.
+4. Open **Offline prep needed** in the header. Simulating a connection does not mark content downloaded or advance the last successful check. Retry and check are separate actions.
 
-- **Clash + unknown:** change attendance to all, part, or none; interests and priorities remain. Enter a partial interval, observe overlap warnings, and undo a change. Unknown times remain not checkable.
-- **Update + edit:** compare the published example time with a personal edit, choose which to keep, and apply the update. Saved intent survives; a partial interval that falls outside the moved set needs review.
-- **Offline failure:** inspect app, timetable and map readiness separately. A failed map download stays unavailable. Simulating a connection does not advance the last successful update check. A separate check does.
-- **Reset map / Unverified map:** explore the supplied artwork with its evidence disclosure and organizer-source discrepancy.
-- **Set → reference label:** use Find on reference map from an example set to focus its label on the actual supplied image, then return to the plan. The example assignment and image-relative focus do not verify physical stage positions.
+The shared **Review tools** menu loads first visit, overlapping picks plus TBA, update plus personal edit, failed download, reference map, and set-to-map scenarios. First visit uses published sample times; only the personal-edit scenario begins with a personal change.
 
-## Map evidence
+Search and My picks filter the four sample appearances. The acoustic appearance is distinct from the same artist's other set. Known times appear in time order; TBA is last. All acts, assignments and times are fictional.
 
-See [map-verification.md](map-verification.md) and the captured [organizer post](evidence/organizer-map-post.png). A remote browser check found the organizer's October 9, 2026 post, but its stage labels differ from the supplied screenshot. Google Maps supports venue context only. Latest map revision, physical stage positions, routes, accessibility and travel times remain unverified.
+## Map and evidence
+
+- The exact user-supplied image remains embedded, with reference-only labeling. See [map-verification.md](map-verification.md) and the [organizer-post capture](evidence/organizer-map-post.png).
+- The organizer's October 9 post has different stage labels from the supplied screenshot. Google Maps supports venue surroundings only. Latest revision, physical stage positions, routes, accessibility and travel times remain unverified.
+- Drag, pinch, wheel, double-click, or use + / - / Fit. Focus the map for arrow-key pan, + / - zoom and Home reset.
+- Stage chips and markers focus visible labels in the artwork, not verified physical or GPS positions. My sets filters those labels; unknown-stage picks get an explicit empty state.
+- Friends shows fictional planned and dated manual-check-in examples. A personal demo check-in keeps its recorded day/time when the slider changes. No live tracking, transfer or persistence occurs.
+- Amenity filters explain unavailable verified positions. They do not invent markers.
 
 ## Validation and limits
 
-- JavaScript syntax and simulated state transitions were checked: clashes, none/partial attendance, invalid intervals, undo, update preview/apply, and freshness stability.
-- Additional map simulations checked initial measurement, zoom anchoring and limits, fit/reset, centered label focus, unknown amenity behavior, saved-stage filtering, pointer drag and demo check-in. These use a mock document and do not replace browser gesture/visual testing.
-- Source review corrected an erroneous newer-revision notice after applying revision 2 and kept detailed plan controls in one column.
-- The in-app browser security policy rejected local file navigation. No browser interaction, responsive visual, or physical-phone pass is claimed for this artifact.
-- All acts, times, readiness and update states are fictional. There is no service worker, persistence, real download, signed-code verification or offline cold start.
-- Search/filtering, personal backup, friend comparison/meetups/check-ins, arbitrary timetable imports and restoration remain retained scope, with contextual descriptions rather than working implementations in this prototype.
-- This asset is throwaway design evidence. Production implementation and release verification remain separate map work.
+Run `node prototype/check-journeys.cjs` from the repo root. The source-level simulation passed and was independently rerun during review. It exercises save, named overlap, partial/none attendance, split/skip/undo, unknown data, update preview/apply, plan/map return, zoom/pan/label focus, dated check-in, freshness and download state, and all shared destinations.
+
+The harness uses a mock document. It does not validate browser rendering, responsive fit, focus recovery, touch gestures or physical-device usability. Those checks remain pending. Local-file navigation was explicitly rejected by the in-app browser's security policy; no alternative route was used to bypass it.
+
+There is no service worker, persistence, real download, signed-code verification or offline cold-start proof. Full timetable entry/import, personal backup, friend-plan exchange/comparison, meetup editing and restoration remain retained production scope. Prototype labels and examples do not remove those features from the contract.
+
+Font attribution and license: [Archivo Black OFL](Archivo-Black-LICENSE.txt), also embedded in the HTML source.
