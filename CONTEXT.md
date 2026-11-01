@@ -25,8 +25,20 @@ The event information assigning appearances to days, times, and stages. It is di
 _Avoid_: My plan
 
 **Schedule-import code**:
-A shareable code for bringing a published timetable update into the app while preserving personal interests and attendance choices. Its format and transfer rules are separate data-policy decisions.
+A shareable code containing a timetable revision that a person can bring into their plan while preserving personal interests and attendance choices.
 _Avoid_: Friend-plan code, postcode
+
+**Published revision**:
+A particular release of shared event information approved by the event-data publisher. It is distinct from a person's edits and from the organizer's original source material.
+_Avoid_: Official schedule when referring to this app's own release
+
+**Personal edit**:
+A person's own correction to event information, separate from the published revision. It does not change the information other festivalgoers receive.
+_Avoid_: Published correction
+
+**Source check**:
+A review of specified event information against its identified source at a recorded time. It does not imply that every appearance, time, stage, or map location is known.
+_Avoid_: Download time, complete timetable
 
 **Clash**:
 An overlap between appearances in a person's plan. Missing times prevent checking an overlap; insufficient travel time is a separate warning.
